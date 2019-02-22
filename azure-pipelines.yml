@@ -10,5 +10,5 @@ variables:
   buildConfiguration: 'Debug'
 
 steps:
-- script: dotnet restore
-dotnet test
+- script: 'dotnet restore'
+'dotnet test'
